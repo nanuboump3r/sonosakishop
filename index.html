@@ -1,40 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sonosaki</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sonosaki - Stickers</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
 </head>
 <body>
-    <!-- Imagen del título -->
+  <div class="background"></div>
+  <header class="header">
     <h1>Sonosaki</h1>
-
-    <!-- Categoría Ignorant -->
-    <div class="category" id="ignorant">
-        <h1>ignorant</h1>
-        <img src="1.png" alt="Sticker 1 - Ignorant">
-        <img src="10.png" alt="Sticker 2 - Ignorant">
-        <img src="11.png" alt="Sticker 3 - Ignorant">
-        <img src="12.png" alt="Sticker 4 - Ignorant">
+    <p>Explora nuestro catálogo de stickers por categorías</p>
+    <nav class="categories">
+      <button data-category="all" class="active">Todos</button>
+      <button data-category="random">Random</button>
+      <button data-category="anime">Anime</button>
+      <button data-category="caricature">Caricatura</button>
+      <button data-category="music">Música</button>
+      <button data-category="videogame">Videojuego</button>
+    </nav>
+  </header>
+  <main class="gallery">
+    <div class="item" data-category="anime">
+      <img src="anime.jpg" alt="Anime Sticker 1">
+      <h2>Anime Sticker 1</h2>
     </div>
-
-    <!-- Categoría Aesthetic -->
-    <div class="category" id="aesthetic">
-        <h1>aesthetic</h1>
-        <img src="13.png" alt="Sticker 1 - Aesthetic">
-        <img src="2.png" alt="Sticker 2 - Aesthetic">
-        <img src="3.png" alt="Sticker 3 - Aesthetic">
-        <img src="4.png" alt="Sticker 4 - Aesthetic">
+    <div class="item" data-category="music">
+      <img src="stickers2.jpg" alt="Music Sticker 1">
+      <h2>Music Sticker 1</h2>
     </div>
-
-    <!-- Categoría Dark -->
-    <div class="category" id="dark">
-        <h1>Dark</h1>
-        <img src="5.png" alt="Sticker 1 - Dark">
-        <img src="6.png" alt="Sticker 2 - Dark">
-        <img src="7.png" alt="Sticker 3 - Dark">
-        <img src="8.png" alt="Sticker 4 - Dark">
+    <div class="item" data-category="videogame">
+      <img src="background.jpg" alt="Video Game Sticker 1">
+      <h2>Video Game Sticker 1</h2>
     </div>
+    <div class="item" data-category="caricature">
+        <img src="caricatura.jpg" alt="Caricatura Sticker 1">
+        <h2>Video Game Sticker 1</h2>
+      </div>
+      <div class="item" data-category="anime">
+        <img src="anime 2.jpg" alt="Anime Sticker 2">
+        <h2>Video Game Sticker 1</h2>
+      </div>
+      <div class="item" data-category="random">
+        <img src="background.jpg" alt="Random Sticker 1">
+        <h2>Video Game Sticker 1</h2>
+      </div>
+      <div class="item" data-category="random">
+        <img src="stickers1.jpg" alt="Random Sticker 1">
+        <h2>Video Game Sticker 1</h2>
+      </div>
+    <!-- Agrega más stickers con sus respectivas categorías -->
+  </main>
 </body>
 </html>
