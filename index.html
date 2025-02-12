@@ -1,56 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sonosaki - Stickers</title>
-  <link rel="stylesheet" href="styles.css">
-  <script defer src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oro Nato Barber Shop</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="background"></div>
-  <header class="header">
-    <h1>Sonosaki</h1>
-    <p>Explora nuestro catálogo de stickers por categorías</p>
-    <nav class="categories">
-      <button data-category="all" class="active">Todos</button>
-      <button data-category="random">Random</button>
-      <button data-category="anime">Anime</button>
-      <button data-category="caricature">Caricatura</button>
-      <button data-category="music">Música</button>
-      <button data-category="videogame">Videojuego</button>
-    </nav>
-  </header>
-  <main class="gallery">
-    <div class="item" data-category="anime">
-      <img src="anime.jpg" alt="Anime Sticker 1">
-      <h2>Anime Sticker 1</h2>
-    </div>
-    <div class="item" data-category="music">
-      <img src="stickers2.jpg" alt="Music Sticker 1">
-      <h2>Music Sticker 1</h2>
-    </div>
-    <div class="item" data-category="videogame">
-      <img src="background.jpg" alt="Video Game Sticker 1">
-      <h2>Video Game Sticker 1</h2>
-    </div>
-    <div class="item" data-category="caricature">
-        <img src="caricatura.jpg" alt="Caricatura Sticker 1">
-        <h2>Video Game Sticker 1</h2>
-      </div>
-      <div class="item" data-category="anime">
-        <img src="anime 2.jpg" alt="Anime Sticker 2">
-        <h2>Video Game Sticker 1</h2>
-      </div>
-      <div class="item" data-category="random">
-        <img src="background.jpg" alt="Random Sticker 1">
-        <h2>Video Game Sticker 1</h2>
-      </div>
-      <div class="item" data-category="random">
-        <img src="stickers1.jpg" alt="Random Sticker 1">
-        <h2>Video Game Sticker 1</h2>
-      </div>
-    <!-- Agrega más stickers con sus respectivas categorías -->
-  </main>
+    <header>
+        <h1>Oro Nato Barber Shop</h1>
+        <nav>
+            <ul>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Estilo y Precisión</h2>
+        <p>La mejor barbería para un corte impecable.</p>
+    </section>
+
+    <section id="servicios">
+        <h2>Nuestros Servicios</h2>
+        <div class="servicio">
+            <h3>Corte Clásico</h3>
+            <p>$10</p>
+        </div>
+        <div class="servicio">
+            <h3>Afeitado Premium</h3>
+            <p>$8</p>
+        </div>
+        <div class="servicio">
+            <h3>Degradado + Barba</h3>
+            <p>$15</p>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form>
+            <input type="text" placeholder="Nombre" required>
+            <input type="email" placeholder="Correo Electrónico" required>
+            <textarea placeholder="Mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Oro Nato Barber Shop. Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>
