@@ -35,8 +35,9 @@ nav ul li a {
 
 #hero {
     text-align: center;
-    padding: 50px 20px;
+    padding: 60px 20px;
     background: url('barberia.jpg') center/cover no-repeat;
+
 }
 
 #servicios {
